@@ -1210,6 +1210,10 @@ li {
   }
 }
 
+.contacts__list {
+  padding-bottom: 32px;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
   .contacts__list {
     display: flex;
@@ -2591,6 +2595,10 @@ li {
   .contacts {
     background-image: linear-gradient(#fff 18%, #fff5f6 18% 82%);
   }
+}
+
+.contacts__list {
+  padding-bottom: 32px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {

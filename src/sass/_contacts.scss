@@ -21,6 +21,9 @@
    
 }
 .contacts__list {
+
+    padding-bottom: 32px;
+    
     @include mq (tablet-only) {
         display: flex;
     }
@@ -30,6 +33,7 @@
     
 }
 .contacts__item {
+
     @include mq (mobile-only){
         background-color: #ffffff;
         box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
