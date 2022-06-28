@@ -3313,4 +3313,22 @@ html {
   }
 }
 
+.scroll-ice {
+  width: 100px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+}
+
+.scroll-ice:hover, .scroll-ice:focus {
+  box-shadow: inset;
+}
+
+.scroll-ice:before {
+  content: "";
+  border: 2px solid tomato;
+  position: relative;
+}
+
 /*# sourceMappingURL=index.b07a87f3.css.map */
