@@ -943,51 +943,120 @@ li {
   }
 }
 
-.product__name--cream:before {
-  background-image: url("m-product1.e4d6e433.png");
+@media screen and (max-width: 767px) {
+  .product__name--cream:before {
+    background-image: url("m-product1.e4d6e433.png");
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2x) {
+  .product__name--cream:before {
+    background-image: url("m-product1@2x.0355d590.png");
+  }
 }
 
 @media screen and (min-width: 768px) {
   .product__name--cream:before {
     background-image: url("t-product1.89962c74.png");
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2x) {
+  .product__name--cream:before {
+    background-image: url("t-product1@2x.6032df16.png");
   }
 }
 
 @media screen and (min-width: 1200px) {
   .product__name--cream:before {
     background-image: url("d-product1.1e87afd7.png");
+    background-size: contain;
   }
 }
 
-.product__name--coffee:before {
-  background-image: url("m-product2.392cbf1c.png");
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2x) {
+  .product__name--cream:before {
+    background-image: url("d-product1@2x.43f4b96c.png");
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .product__name--coffee:before {
+    background-image: url("m-product2.392cbf1c.png");
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2x) {
+  .product__name--coffee:before {
+    background-image: url("m-product2@2x.588f308b.png");
+  }
 }
 
 @media screen and (min-width: 768px) {
   .product__name--coffee:before {
     background-image: url("t-product2.777c5cc4.png");
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2x) {
+  .product__name--coffee:before {
+    background-image: url("t-product2@2x.04315a4e.png");
   }
 }
 
 @media screen and (min-width: 1200px) {
   .product__name--coffee:before {
     background-image: url("d-product2.e2fd8fba.png");
+    background-size: contain;
   }
 }
 
-.product__name--milkshakes:before {
-  background-image: url("m-product3.0cdbd6c2.png");
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2x) {
+  .product__name--coffee:before {
+    background-image: url("d-product2@2x.f8596b07.png");
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .product__name--milkshakes:before {
+    background-image: url("m-product3.0cdbd6c2.png");
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2x) {
+  .product__name--milkshakes:before {
+    background-image: url("m-product3@2x.3c1ec5a6.png");
+  }
 }
 
 @media screen and (min-width: 768px) {
   .product__name--milkshakes:before {
     background-image: url("t-product3.1752e2c5.png");
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2x) {
+  .product__name--milkshakes:before {
+    background-image: url("t-product3@2x.6f75a620.png");
   }
 }
 
 @media screen and (min-width: 1200px) {
   .product__name--milkshakes:before {
     background-image: url("d-product3.aae51ea4.png");
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2x) {
+  .product__name--milkshakes:before {
+    background-image: url("d-product3@2x.d67d9b0a.png");
   }
 }
 
