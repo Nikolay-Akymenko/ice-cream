@@ -2115,7 +2115,6 @@ li {
 @media screen and (max-width: 767.98px) {
   .gallery__section {
     background-image: linear-gradient(to bottom, var(--secondary-bg-cl) 21px, var(--main-bg-cl) 24px);
-    padding-bottom: 50px;
   }
 }
 

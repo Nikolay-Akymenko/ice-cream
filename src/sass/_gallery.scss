@@ -1,6 +1,5 @@
 .gallery__section {
   @include mq(mobile-only) {
-    padding-bottom: 50px;
     background-image: linear-gradient(
       to bottom,
       var(--secondary-bg-cl) 21px,
