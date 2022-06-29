@@ -24,7 +24,7 @@
             <path d="M1.25925 1L14.7407 15" stroke="black"></path>
             <path d="M1 14.7407L15 1.25924" stroke="black"></path>
         </symbol>
-        <!-- Social icons -->
+    
         <symbol viewBox="0 0 32 32" id="github">
             <circle cx="16" cy="16" r="16"></circle>
             <path
