@@ -76,11 +76,11 @@
 
     <form class="header-modal-form">
       <p class="header-modal__text">
-        leave your details,<br> we will call you back
+        Leave your ,<br> we will call you back
       </p>
       <div class="header-modal-bl" role="group">
         <label class="header-modal-form-unit">
-          <span class="header-modal-form__item">Name</span>
+          <span class="header-modal-form__item">Your name</span>
           <input class="header-modal-form__input" type="text" name="input-modal">
 
           <svg class="header-modal-form__icon">
@@ -89,24 +89,31 @@
         </label>
 
         <label class="header-modal-form-unit">
-          <span class="header-modal-form__item">Тel</span>
+          <span class="header-modal-form__item">Your contact</span>
           <input class="header-modal-form__input" type="tel" name="input-modal">
           <svg class="header-modal-form__icon">
             <use href="/sprite.f14d31f7.svg#icon-phone"></use>
           </svg>
         </label>
 
-        <label class="header-modal-form-unit">
-          <span class="header-modal-form__item">E-mail</span>
-          <input class="header-modal-form__input" type="email" name="input-modal">
-          <svg class="header-modal-form__icon">
-            <use href="/sprite.f14d31f7.svg#icon-email"></use>
-          </svg>
-        </label>
-
+        <div class="header-modal__text-radio">
+          <p class="header-modal__text-radio">What would you like to order?</p>
+          <label class="header-modal-form__item-radio">
+            <input type="radio" name="option" value="Ice cream" checked="">
+            Ice cream
+          </label>
+          <label class="header-modal-form__item-radio">
+            <input type="radio" name="option" value="Ice coffe">
+           Ice coffe
+          </label>
+          <label class="header-modal-form__item-radio">
+            <input type="radio" name="option" value="Milk shake">
+            Milk shake
+          </label>
+        </div>
         <label class="header-modal-form-unit">
           <span class="header-modal-form__item">Address</span>
-          <textarea class="header-modal-form__input header-modal-form__comment" name="input-modal" placeholder="Input text"></textarea>
+          <textarea class="header-modal-form__input header-modal-form__comment" name="input-modal" placeholder="Add your address"></textarea>
         </label>
       </div>
       <button class="header-modal-mailing-btn-submit" type="submit">
@@ -210,7 +217,7 @@
       <p class="about-section__suptitle">TRADITION AND LOVE</p>
       <h2 class="about-section__title">HOW IT'S MADE?</h2>
       <div class="about-section__content">
-        <div class="about-section__bg-bossy"></div>
+        <div class="about-section__bg-bossy swing"></div>
         <div class="about-section__information">
           <p class="about-section__main-text">
             Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus
@@ -222,11 +229,9 @@
             urna maximus. Cras massa nibh, tincidunt. <br><br>Aliquam erat volutpat. Aenean
             accumsan.
           </p>
-          <button type="button" class="button about-section__button" data-about-modal-open="">
+          <button type="button" class="button about-section__button grow" data-about-modal-open="">
             Read more
-            <svg class="about-section__btn-svg" width="10px" height="12px">
-              <use href="/arrow-button.f8924630.svg#icon-arrow-button"></use>
-            </svg>
+           
           </button>
         </div>
       </div>
@@ -244,7 +249,7 @@
     </button>
     <p class="modal__suptitle">TRADITION AND LOVE</p>
     <p class="modal__title">HOW IT'S MADE?</p>
-    <div class="frame"><iframe src="https://www.youtube.com/embed/MBJ7p1ci7LA" frameborder="0"></iframe>
+    <div class="frame"><iframe class="video" src="https://www.youtube.com/embed/nSPCdu5rpRE" frameborder="0"></iframe>
     </div>
 
   </div>
